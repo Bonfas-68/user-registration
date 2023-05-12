@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration System</title>
+    <link rel="stylesheet" href="reg.css">
+    <script defer src="reg.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h2>UserRegApp</h2>
+        </div>
+        <nav>
+            <ul class="navbar">
+                <li class="navbar_items">
+                    <a href="#">Home</a>
+                </li>
+                <li class="navbar_items">
+                    <a href="#">About</a>
+                </li>
+                <li class="navbar_items">
+                    <a href="#">Blogs</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </div>
+
+    <main class="wrapper">
+        <form class="form-content">
+            <div class="form_control">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form_control">
+                <label for="id">id number</label>
+                <input type="number" name="id" id="id">
+            </div>
+            <div class="form_control">
+                <label for="country">country</label>
+                <select name="country" id="country">
+                    <option value="Uganda">Uganda</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="Serbia">Serbia</option>
+                    <option value="Ethiopia">Ethiopia</option>
+                </select>
+            </div>
+            <div class="form_control">
+                <label for="lang">langauage</label>
+                <input type="text" name="lang" id="lang">
+            </div>
+            <input type="submit" class="input-sub" value="Submit">
+        </form>
+        <div class="users-content">
+            <div class="user">
+                <div class="icon">1</div>
+                <div class="details">
+                    <h2>Name: <span class="user-name">Bonfas Oluoch</span></h2>
+                    <p>Country: <span class="user-country">Uganda</span></p>
+                    <p>Language: <span class="user-lang"></span>English</p>
+                </div>
+            </div>
+            <div class="user">
+                <div class="icon">2</div>
+                <div class="details">
+                    <h2>Name: <span class="user-name">Bonfas Oluoch</span></h2>
+                    <p>Country: <span class="user-country">Uganda</span></p>
+                    <p>Language: <span class="user-lang"></span>English</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
